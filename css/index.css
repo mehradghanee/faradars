@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'sans';
+    src: url('../font/Sans\ a4fran3.woff');
+  }
+
+  @font-face {
+    font-family: 'bold';
+    src: url('../font/Iran\ Sans\ Bold.ttf');
+  }
+
+  body{
+    font-family: sans;
+  }
+
+.navbar-css{
+    direction: rtl;
+}
+
+.navbar-css-search{
+    font-size: 12px;
+    width: 462px;
+    height: 48px;
+}
+
+.navbar-css-dropdown{
+    font-size: 15px;
+    font-family: bold;
+}
+
+.navbar-css-btn{
+    font-size: 12px;
+    color: #0088ff;
+    border: 1px solid #0088ff;
+    width: 130px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.navbar-css-btn:hover{
+    color: white;
+    background-color: #0088ff;
+}
+
+.navbar-css-cart{
+    font-size: 20px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.navbar-css-user{
+    font-size: 20px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.navbar-css-span{
+    width: 380px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar-css-book{
+    width: fit-content;
+    height: fit-content;
+}
+
+.navbar-css-search-ico{
+    position: absolute;
+    top: 24px;
+    right: 265px;
+    color: #71717A;
+}
+
+.div-footer{
+    direction: rtl;
+}
+
+.footer-title{
+    font-family: bold;
+}
+
+.footer-txts li{
+    font-size: 13px;
+}
+
+.footer-email{
+    font-size: 14px;
+}
+
+.footer-btn{
+    font-size: 14px;
+    width: 100px;
+    height: 36;
+}
+
+.footer-txt{
+    font-size: 13px;
+}
+
+.hero-section-img{
+    width: 100%;
+}
+
+.hero-section{
+    background-image: url(../img/library-bg.png);
+    width: 100%;
+    height: 400px;
+}
+
+.hero-section-title-h3{
+    font-size: 18px;
+    font-family: bold;
+    color: white;
+}
