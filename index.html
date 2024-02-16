@@ -18,14 +18,17 @@
     
     <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-css">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="img/faradarslogosmall (1).svg" alt="faradars-logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-              <li class="nav-item dropdown mt-2">
+          <div class="navbar-css-logo-img">
+            <a class="navbar-brand" href="#"><img src="img/faradarslogosmall (1).svg" alt="faradars-logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        
+            <div class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <div class="nav-item dropdown mt-2">
                 <a class="nav-link dropdown-toggle navbar-css-dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   دسته بندی ها
                 </a>
@@ -35,35 +38,43 @@
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
-              </li>
+              </div>
 
-              <form class="d-flex" role="search">
-                <i class="fa-solid fa-magnifying-glass navbar-css-search-ico"></i>
-                <input class="form-control me-2 navbar-css-search" type="search" placeholder="      جستجوی آموزش ..." aria-label="Search">
-              </form>
+              <div class="navbar-css-search">
+                <form class="d-flex" role="search">
+                  <i class="fa-solid fa-magnifying-glass navbar-css-search-ico"></i>
+                  <input class="form-control me-2 navbar-css-search" type="search" placeholder="      جستجوی آموزش ..." aria-label="Search">
+                </form>
+              </div>
 
               <span class="navbar-css-span"></span>
 
-              <a class="navbar-css-btn d-flex">
-                <i class="fa-solid fa-book navbar-css-book mt-2"></i>
-                <p class="navbar-css-btn-title">آموزش های من</p>
-              </a>
+              <div class="navbar-css-my-lessons">
+                <a class="navbar-css-btn d-flex">
+                  <i class="fa-solid fa-book navbar-css-book mt-2"></i>
+                  <p class="navbar-css-btn-title">آموزش های من</p>
+                </a>
+              </div>
 
-              <li class="nav-item">
-                <i class="fa-solid fa-cart-shopping navbar-css-cart mt-2 ms-4 me-3"></i>
-              </li>
+              <div class="navbar-css-cart">
+                <li class="nav-item">
+                  <i class="fa-solid fa-cart-shopping navbar-css-cart mt-2 ms-4 me-3"></i>
+                </li>
+              </div>
 
-              <li class="nav-item">
-                <i class="fa-regular fa-user navbar-css-user mt-2"></i>
-              </li>
+              <div class="navbar-css-user"></div>
+                <li class="nav-item">
+                  <i class="fa-regular fa-user navbar-css-user mt-2"></i>
+                </li>
+              </div>
 
-            </ul>
+            </div>
             
-          </div>
+          
         </div>
       </nav>
 
-      <section class="hero-section">
+      <!--<section class="hero-section">
 
         <div class="hero-container container">
 
@@ -132,7 +143,7 @@
           </div>
       
         </footer>
-      </div>
+      </div>-->
 
 </body>
 </html>
