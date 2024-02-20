@@ -20,6 +20,7 @@
     font-size: 12px;
     width: 462px;
     height: 48px;
+    margin-left: auto;
 }
 
 .navbar-css-dropdown{
@@ -53,10 +54,6 @@
     height: fit-content;
 }
 
-.navbar-css-span{
-    width: 380px;
-}
-
 a{
     text-decoration: none;
 }
@@ -64,6 +61,7 @@ a{
 .navbar-css-book{
     width: fit-content;
     height: fit-content;
+    margin: auto;
 }
 
 .navbar-css-search-ico{
@@ -71,6 +69,11 @@ a{
     top: 24px;
     right: 265px;
     color: #71717A;
+    font-size: 16px;
+}
+
+.navbar-css-btn-title{
+    margin: auto;
 }
 
 .div-footer{
